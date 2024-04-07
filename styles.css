@@ -1,0 +1,61 @@
+body {
+    background-color: lightgrey;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: seashell;
+    margin-top: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 500px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px
+}
+
+.feed {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.post {
+    background-color: seashell;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: 300ms;
+}
+
+.post:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+.postTop{
+    display: flex;
+}
+
+.titulo {
+    width: 70%;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.fecha{
+    color:rgb(168, 168, 168);
+    width: 20%;
+    text-align: right;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.comment {
+    margin: 0px;
+    padding: 20px;
+}
+img {
+    max-width: 500px;
+}
